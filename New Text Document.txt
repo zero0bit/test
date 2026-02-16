@@ -1,0 +1,102 @@
+docker
+   74  docker ps -a
+   75  sudo docker ps -a
+   76  cd /home/
+   77  ls
+   78  docker pull dhi.io/mongodb:8-debian13-dev
+   79  sudo docker pull dhi.io/mongodb:8-debian13-dev
+   80  sudo docker pull mongo:windowsservercore-ltsc2025
+   81  sudo docker pull mongo
+   82  docker images
+   83  sudo docker images
+   84  mongodb
+   85  sudo docker run -p 27017:27017 mongo:latest
+   86  docker ps -a
+   87  sudo docker ps -a
+   88  sudo docker run -p 27017:27017 mongo:latest
+   89  cledar
+   90  clear
+   91  docker pws -a
+   92  docker ps -a
+   93  sudo docker ps -a
+   94  sudo apt install software-properties-common gnupg apt-transport-https ca-certificates -y
+   95  curl -fsSL https://pgp.mongodb.com/server-7.0.asc |  sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor
+   96  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+   97  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse"
+   98  sudo apt update
+   99  sudo apt install mongodb-org -y
+  100  sudo apt update
+  101  sudo apt install ca-certificates curl gnupg
+  102  sudo install -m 0755 -d /etc/apt/keyrings
+  103  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  104  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  105  sudo install -m 0755 -d /etc/apt/keyrings
+  106  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  107  [200~echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null~
+  108  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  109  sudo apt update
+  110  apt-cache policy docker-ce
+  111  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  112  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  113  sudo apt update
+  114  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  115  sudo apt update
+  116  apt-cache policy docker-ce
+  117  sudo apt install gnome-terminal
+  118  sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+  119  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  120  sudo apt update
+  121  sudo apt install -y docker-ce docker-ce-cli containerd.io
+  122  sudo systemctl enable docker
+  123  docker --version
+  124  sudo apt-get update
+  125  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  126  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  127  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+  128  sudo apt-get update
+  129  sudo apt install docker-ce docker-compose
+  130  docker
+  131  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  132  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  133  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  134  sudo apt update
+  135  apt-cache policy docker-ce
+  136  sudo apt install docker-ce
+  137  sudo systemctl status docker
+  138  docker
+  139  clear
+  140  docker pull alpine
+  141  sudo docker pull alpine
+  142  docker images
+  143  sudo docker images
+  144  sudo docker run --name reza alpine:latest
+  145  sudo docker run - id  --name reza2 alpine:latest
+  146  sudo docker run -it  --name reza2 alpine:latest
+  147  docker ps -a
+  148  sudo docker ps -a
+  149  mongodb
+  150  apt update && apt upgrade -y
+  151  sudo apt update && apt upgrade -y
+  152  apt install wget -y && wget https://downloads.mongodb.com/compass/mongodb-compass_1.40.4_amd64.deb
+  153  sudo apt install wget -y && wget https://downloads.mongodb.com/compass/mongodb-compass_1.40.4_amd64.deb
+  154  dpkg -i mongodb-compass_1.40.4_amd64.deb 
+  155  sudo dpkg -i mongodb-compass_1.40.4_amd64.deb 
+  156  mongodb-compass --no-sandbox
+  157  sudo docker run -p 27028:27017 mongo:latest
+  158  clear
+  159  docker images
+  160  sudo docker images
+  161  docker rmi mongo:latest
+  162  sudo docker rmi mongo:latest
+  163  docker ps -a
+  164  sudo docker ps -a
+  165  docker rm -f 98 d3 25 8f 0f bb bd
+  166  sudo docker rm -f 98 d3 25 8f 0f bb bd
+  167  sudo docker ps -a
+  168  sudo docker images
+  169  sudo docker rmi mongo:latest
+  170  docker images
+  171  sudo docker images
+  172  clear
+  173  sudo docker images
+  174  sudo docker run -p 27028:27017 mongo:latest
